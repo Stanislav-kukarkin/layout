@@ -1,0 +1,137 @@
+:root{
+    --grey: #f7f7f7;
+    --black: #1a171a;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    color: #1a171a;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin: 0 auto;
+    
+}
+
+.block_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+
+}
+.information_1_1{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 3.2rem 0 0 14rem;
+}
+
+.information_1_2{
+    font-size: 0.8rem;
+    margin-top: 1.6rem;
+    margin-left: 14rem;
+    opacity: 0.6;
+    margin-bottom: 3.2rem;
+}
+
+.img_1{
+    margin-right: 14rem;
+}
+
+.block_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.img_2{
+    margin-left: 14rem;
+}
+
+.information_2_1{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-right: 14rem;
+    margin-top: 2.8rem;
+}
+
+.information_2_2{
+    font-size: 0.8rem;
+    margin-top: 1.6rem;
+    margin-right: 14rem;
+    opacity: 0.6;
+    margin-bottom: 3.2rem;
+}
+
+@media(max-width: 1199px){
+.container{
+    max-width: 100%;
+}
+.information_1_1{
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+.information_1_2{
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+.information_2_1{
+    margin-right: 5rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+.information_2_2{
+    margin-right: 5rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+.img_1{
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+.img_2{
+    margin-right: 5rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+}
+
+@media(max-width: 767px){
+    .block_1{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding: 0 5rem 0;
+    }
+    .block_2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 5rem 0;
+    }
+    .img_1{
+        max-width: 100%;
+        position: relative;
+    }
+
+    .img_2{
+        max-width: 100%;
+        position: relative;
+    }
+    
+
+}
