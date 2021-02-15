@@ -80,32 +80,13 @@ body {
 .container{
     max-width: 100%;
 }
-.information_1_1{
+.information_1_1, .information_1_2,.img_1{
     margin-left: 5rem;
     margin-right: 3rem;
     margin-bottom: 1rem;
 }
-.information_1_2{
-    margin-left: 5rem;
-    margin-right: 3rem;
-    margin-bottom: 1rem;
-}
-.information_2_1{
-    margin-right: 5rem;
-    margin-left: 3rem;
-    margin-bottom: 1rem;
-}
-.information_2_2{
-    margin-right: 5rem;
-    margin-left: 3rem;
-    margin-bottom: 1rem;
-}
-.img_1{
-    margin-left: 5rem;
-    margin-right: 3rem;
-    margin-bottom: 1rem;
-}
-.img_2{
+
+.information_2_1, .information_2_2, .img_2 {
     margin-right: 5rem;
     margin-left: 3rem;
     margin-bottom: 1rem;
@@ -123,15 +104,9 @@ body {
         flex-wrap: wrap;
         padding: 0 5rem 0;
     }
-    .img_1{
+    .img_1, .img_2{
         max-width: 100%;
         position: relative;
     }
-
-    .img_2{
-        max-width: 100%;
-        position: relative;
-    }
-    
 
 }
